@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -66,5 +67,53 @@ public class Main {
         else {
             System.out.println("Доставить не получится");
         }
+    }
+    public static void task5(){
+        System.out.println("Task 5");
+        byte monthNumber = 6;
+        if (monthNumber > 12) {
+            System.out.println("Такого месяца нет");
+        }
+        else{
+            switch (monthNumber){
+                case 1:
+                    System.out.println("Зимний месяц");
+                    break;
+                case 2:
+                    System.out.println("Зимний месяц");
+                    break;
+                case 3:
+                    System.out.println("Весенний месяц");
+                    break;
+                case 4:
+                    System.out.println("Весенний месяц");
+                    break;
+                case 5:
+                    System.out.println("Весенний месяц");
+                    break;
+                case 6:
+                    System.out.println("Летний месяц");
+                    break;
+                case 7:
+                    System.out.println("Летний месяц");
+                    break;
+                case 8:
+                    System.out.println("Летний месяц");
+                    break;
+                case 9:
+                    System.out.println("Осенний месяц");
+                    break;
+                case 10:
+                    System.out.println("Осенний месяц");
+                    break;
+                case 11:
+                    System.out.println("Осенний месяц");
+                    break;
+                case 12:
+                    System.out.println("Зимний месяц");
+                    break;
+            }
+        }
+
     }
 }
