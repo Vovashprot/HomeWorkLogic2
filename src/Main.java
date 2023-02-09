@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -45,5 +46,25 @@ public class Main {
             System.out.println(year + " это не високосный год");
         }
 
+    }
+    public static void task4(){
+        System.out.println("Task 4");
+        int deliveryDistance = 95;
+        byte days = 0;
+        if (deliveryDistance <= 20){
+            days = 1;
+            System.out.println("Потребуется дней:" +days);
+        }
+         else if (deliveryDistance > 20 && deliveryDistance <=60){
+            days = 2;
+            System.out.println("Потребуется дней:" +days);
+        }
+        else if (deliveryDistance > 60 && deliveryDistance <=100){
+            days = 3;
+            System.out.println("Потребуется дней: "+days);
+        }
+        else {
+            System.out.println("Доставить не получится");
+        }
     }
 }
